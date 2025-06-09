@@ -1,8 +1,16 @@
 const prompt = require('prompt-sync')();
-const numero = Number(prompt('Digite seu numero: '))
+const numero = Number(prompt('Digite um número: '));
 
-if(numero % numero === 0 && numero % 7 !== 0){
-    console.log(`O numero ${numero} é primo`)
-}else{
-    console.log(`O numero ${numero} não é primo`)
+let divisores = 0;
+
+for (let i = 1; i <= numero; i++) {
+    if (numero % i === 0) {
+        divisores++;
+    }
+}
+
+if (divisores > 2) {
+    console.log('Não é primo');
+} else {
+    console.log('É primo');
 }

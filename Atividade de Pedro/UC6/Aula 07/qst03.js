@@ -36,12 +36,10 @@ do {
             break;
         
         case 0:
-            if (jose === maria && jose === joao && jose === branco && jose === nulo &&
-                maria === joao && maria === branco && maria === nulo &&
-                joao === branco && joao === nulo &&
-                branco === nulo
-            ) {console.log
-                    (`      Votação encerrada.
+            if (jose === maria || jose === joao || maria === joao
+            ) {console.log(` 
+        Votação encerrada.
+     !!!!Temos um empate!!!!
 ------------Resultado------------
 Jóse: ${jose} Votos.
 Maria: ${maria} Votos
@@ -49,9 +47,8 @@ João: ${joao} Votos
 Voto em Branco: ${branco} Votos
 Nulo: ${nulo} Votos`)
                     }else {
-                console.log(` 
-        Votação encerrada.
-     !!!!Temos um empate!!!!
+                console.log
+                    (`      Votação encerrada.
 ------------Resultado------------
 Jóse: ${jose} Votos.
 Maria: ${maria} Votos
