@@ -48,3 +48,25 @@ if(idade4 >= 18){
 if(idade5 >= 18){
     console.log(`${nome5} é maior de idade`)
 }
+
+
+// 20. Resolução certa
+// const prompt = require('prompt-sync')();
+// let nomes = []
+// let idades = []
+// let idade, nome;
+
+// for(let i = 0; i<5; i++){
+//     nome = prompt('Digite o nome: ');
+//     nomes.push(nome)
+//     idade = parseInt(prompt('Digite sua idade: '));
+//     idades.push(idade)
+// }
+// console.table(nomes)
+// console.table(idades)
+// console.log("Pessoas Maiores de Idade")
+// for(let j = 0; j < nomes.length; j++){
+//     if(idade[j] >= 18){
+//         console.log(nomes[j])
+//     }
+// }
