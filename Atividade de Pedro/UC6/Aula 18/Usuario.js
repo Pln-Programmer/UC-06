@@ -82,7 +82,7 @@ class Usuario {
         this.rg = rg;
 
 
-    exibirDados() {
+    exibirDados(){
         return `
         Nome: ${this.nome}
         Idade: ${this.idade}

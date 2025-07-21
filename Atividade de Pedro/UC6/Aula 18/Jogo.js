@@ -3,7 +3,8 @@ titulo;
 genero;
 ano;
 
-constructor(titulo, genero, ano){
+
+constructorr(titulo, genero, ano){
     this.titulo = titulo
     this.genero = genero
     this.ano = ano
